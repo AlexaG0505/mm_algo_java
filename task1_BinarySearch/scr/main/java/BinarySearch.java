@@ -28,9 +28,9 @@ public class BinarySearch {
         Integer result = find(array, comparator, element);
 
         if (result != null) {
-            System.out.println("Элемент найден: " + result);
+            System.out.println("Element found: " + result);
         } else {
-            System.out.println("Элемент не найден.");
+            System.out.println("Element not found.");
         }
     }
 }
